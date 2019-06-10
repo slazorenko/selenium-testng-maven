@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ia.ca" verbose="1" >
+    <test name="Main Page" >
+        <classes>
+            <class name="tests.MainPageTests" />
+        </classes>
+    </test>
+
+    <test name="Mortgages Page">
+        <classes>
+            <class name="tests.MortgagesPageTests"/>
+        </classes>
+    </test>
+
+    <test name="Calculator Page">
+        <classes>
+            <class name="tests.CalculatorPageTests"/>
+        </classes>
+    </test>
+</suite>
